@@ -1,1 +1,1 @@
-console.log("Hola Mundo")
+console.log("Lo importante es la salud!");
