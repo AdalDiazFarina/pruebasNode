@@ -1,2 +1,4 @@
-let diceNumber = 1 + Math.floor(Math.random() * 6);
+const MIN_DICE = 1;
+const  SIDE_DICE = 6;
+const diceResult = MIN_DICE + Math.floor(Math.random() * SIDE_DICE);
 console.log(diceNumber);
