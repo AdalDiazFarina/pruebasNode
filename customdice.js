@@ -1,7 +1,10 @@
 const MIN_DICE = 1;
-const SIDES = 10;
-function randomdice(sides) {
-  return (diceResult = MIN_DICE + Math.floor(Math.random() * sides));
+const input = Number(process.argv[2]);
+function randomDice(sides = 6) {
+  return MIN_DICE + Math.floor(Math.random() * sides);
 }
-
-console.log(randomdice(SIDES));
+if (!isNaN(input)) {
+  console.log(randomDice(input));
+} else {
+  console.error("Input value is not a number");
+}
