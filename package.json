@@ -8,7 +8,8 @@
     "start": "node server.js",
     "dice": "node dice.js",
     "customdice": "node customdice.js",
-    "words": "node words.js"
+    "words": "node words.js",
+    "createFile": "node createFile.js"
   },
   "keywords": [],
   "author": "",
